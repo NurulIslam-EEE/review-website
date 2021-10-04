@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import About from '../About/About';
 import Course from '../Course/Course';
 import HeroSection from '../HeroSection/HeroSection';
+import Testimonials from '../Testimonials/Testimonials';
 
 
 
@@ -27,6 +28,7 @@ const Home = () => {
 
                 </Row>
             </Container>
+            <Testimonials></Testimonials>
 
 
 

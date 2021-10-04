@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div className='mb-4'>
-            <h1 className='text-warning'>About Us</h1>
+            <h1 >About Us</h1>
             <p className='m-4 text-start'>The Technical Institute of America is a technology training company. Our passion for helping individuals and businesses learn technology has made us a great technology training company in New York City. Every year we train thousands in a variety of Microsoft®, Adobe®, Cisco®, CompTIA®, ISC2® and Project Management Institute (PMI)® courses. As an instructor founded company, we are focused and committed in providing the best learning experience at affordable prices.
 
                 Our optimized business processes allows us to offer excellent courses at one of the lowest prices in the city. We strive to provide an enriched learning environment. The major benefits to enrolling in our courses:</p>

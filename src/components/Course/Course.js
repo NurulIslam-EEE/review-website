@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
+import './Course.css'
 
 const Course = (props) => {
     const { courseTitle, price, picture, description } = props.course;
@@ -18,7 +19,7 @@ const Course = (props) => {
                 </Card.Body>
 
 
-                <Button>More Information Here</Button>
+                <Button className='card-btn'>More Information Here</Button>
             </Card>
         </Col>
     );
