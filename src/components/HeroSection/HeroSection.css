@@ -1,0 +1,16 @@
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #0b2b4f81),
+    url(../../img/pexels-kampus-production-5940841.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
