@@ -14,3 +14,14 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+.hero button {
+  border: 3px solid white;
+  background: transparent;
+  color: white;
+  width: 150px;
+}
+.hero button:hover {
+  background: #ffc107;
+  border: 3px solid #ffc107;
+  color: black;
+}

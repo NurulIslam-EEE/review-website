@@ -1,3 +1,14 @@
+.user-container {
+  background-color: #f1fbfc;
+}
+.user-card {
+  height: 240px;
+  width: 520px;
+  margin: 20px auto;
+
+  padding: 20px;
+  box-shadow: 2px 2px 10px -5px #0b2b4f;
+}
 .user {
   height: 100px;
   width: 100px;

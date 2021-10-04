@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <h3 >The Best Learning Institute</h3>
                 <h1>Welcome to our institute</h1>
                 <p>We Believe There is nothing More important than education </p>
-                <button className='p-2 bg-warning'>Read More</button>
+                <button className='p-2 '>Read More</button>
             </div>
 
         </div>
