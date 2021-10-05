@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import useCourses from '../../hooks/useCourses';
 import Course from '../Course/Course';
 import './Courses.css'
 
 const Courses = () => {
-    const [courses, setCourses] = useState([]);
-    useEffect(() => {
-        fetch('./fakedata.JSON')
-            .then(res => res.json())
-            .then(data => setCourses(data))
-    }, [])
+    const [courses] = useCourses();
+
     return (
 
         <Container fluid className='courses'>
@@ -17,7 +14,7 @@ const Courses = () => {
             <Row>
 
                 {
-                    courses.map(course => <Course course={course}></Course>)
+                    courses.map(course => <Course key={course.id} course={course}></Course>)
                 }
 
 

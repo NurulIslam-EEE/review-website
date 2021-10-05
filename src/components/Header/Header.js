@@ -8,11 +8,7 @@ import './Header.css'
 import logo from '../../img/ancile-logo-175x44.png'
 
 const Header = () => {
-    const activeStyle = {
-        fontWeight: "bold",
-        color: "red"
 
-    }
     return (
         <div>
             <Container fluid className='pt-3 d-md-flex justify-content-between header'>
@@ -38,10 +34,10 @@ const Header = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <NavLink to="/home" activeClassName={activeStyle} className='me-5 text-decoration-none fs-5 text text-dark nav'>Home</NavLink>
-                            <NavLink to="/about" activeClassName={activeStyle} className='me-5 text-decoration-none fs-5 text text-dark nav '>About</NavLink>
-                            <NavLink to="/courses" activeClassName={activeStyle} className='me-5 text-decoration-none fs-5 text text-dark nav'>Courses</NavLink>
-                            <NavLink to="/testimonials" activeClassName={activeStyle} className='me-5 text-decoration-none fs-5 text text-dark nav'>Testimonials</NavLink>
+                            <NavLink to="/home" className='me-5 text-decoration-none fs-5 text text-dark nav'>Home</NavLink>
+                            <NavLink to="/about" className='me-5 text-decoration-none fs-5 text text-dark nav '>About</NavLink>
+                            <NavLink to="/courses" className='me-5 text-decoration-none fs-5 text text-dark nav'>Courses</NavLink>
+                            <NavLink to="/testimonials" className='me-5 text-decoration-none fs-5 text text-dark nav'>Testimonials</NavLink>
                         </Nav>
 
                     </Navbar.Collapse>

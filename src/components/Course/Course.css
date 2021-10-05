@@ -1,5 +1,21 @@
+.card {
+  box-shadow: 5px 5px 15px -2px rgb(150, 148, 148);
+  transition: 0.7s;
+}
+.card:hover {
+  transform: scale(1.03);
+}
 .card-btn {
-  background-color: #ffc107;
-  border: 0px;
-  color: black;
+  background: transparent;
+  color: #0b2b4f;
+  border: 0.5px solid #0b2b4f;
+  font-weight: 500;
+}
+.card-btn:hover {
+  background-color: #0b2b4f;
+  color: #ffc107;
+  border: 0.5px solid #0b2b4f;
+}
+.card-img {
+  height: 190px;
 }

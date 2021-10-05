@@ -7,7 +7,7 @@ const NotFound = () => {
         <div>
             <img className='img-fluid' src={error} alt="" />
             <h1>Page Not Found!</h1>
-            <Link to='/home'> <button>Back to home</button> </Link>
+            <Link to='/home'> <button className='px-5 py-1 m-3 bg-info'>Back to home</button> </Link>
         </div>
     );
 };

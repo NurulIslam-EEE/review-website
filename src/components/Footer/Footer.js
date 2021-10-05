@@ -6,7 +6,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='p-3 d-md-flex bg-warning justify-content-around'>
+        <div style={{ backgroundColor: '#0b2b4f', color: 'white' }} className='p-3 d-md-flex justify-content-around'>
             <div className='text-start'>
                 <h3>Links</h3>
                 <p>All Courses</p>

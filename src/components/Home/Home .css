@@ -1,0 +1,22 @@
+.btn-all-course {
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+  background-color: #0b2b4fe1;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  border: 2px solid #0b2b4f;
+  border-radius: 40px;
+}
+.btn-all-course:hover {
+  background: transparent;
+  color: #0b2b4f;
+  border: 2px solid #0b2b4fb7;
+}
+.home-courses {
+  background-color: #f8f6f6;
+}
+body {
+  overflow-x: hidden;
+}
